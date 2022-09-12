@@ -4,12 +4,6 @@
     <compoundname>DmacToFarolNode.cpp</compoundname>
     <includes refid="DmacToFarolNode_8h" local="yes">DmacToFarolNode.h</includes>
     <incdepgraph>
-      <node id="1">
-        <label>src/DmacToFarolNode.cpp</label>
-        <link refid="DmacToFarolNode_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
       <node id="11">
         <label>dmac/mUSBLFix.h</label>
       </node>
@@ -21,15 +15,6 @@
       </node>
       <node id="3">
         <label>string</label>
-      </node>
-      <node id="12">
-        <label>farol_msgs/mUSBLFix.h</label>
-      </node>
-      <node id="16">
-        <label>Eigen/Dense</label>
-      </node>
-      <node id="9">
-        <label>geometry_msgs/TransformStamped.h</label>
       </node>
       <node id="2">
         <label>DmacToFarolNode.h</label>
@@ -65,8 +50,23 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
+      <node id="12">
+        <label>farol_msgs/mUSBLFix.h</label>
+      </node>
+      <node id="16">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="9">
+        <label>geometry_msgs/TransformStamped.h</label>
+      </node>
       <node id="8">
         <label>tf2/LinearMath/Vector3.h</label>
+      </node>
+      <node id="1">
+        <label>src/DmacToFarolNode.cpp</label>
+        <link refid="DmacToFarolNode_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>ros/ros.h</label>

@@ -11,6 +11,14 @@
       <node id="17">
         <label>dmac/mUSBLFix.h</label>
       </node>
+      <node id="1">
+        <label>src/modemPlugin.cc</label>
+        <link refid="modemPlugin_8cc"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>string</label>
       </node>
@@ -50,17 +58,6 @@
       <node id="7">
         <label>gazebo/physics/physics.hh</label>
       </node>
-      <node id="4">
-        <label>thread</label>
-      </node>
-      <node id="1">
-        <label>src/modemPlugin.cc</label>
-        <link refid="modemPlugin_8cc"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
       <node id="3">
         <label>uuv_sensor_ros_plugins/modemPlugin.hh</label>
         <link refid="modemPlugin_8hh_source"/>
@@ -94,6 +91,9 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>thread</label>
       </node>
     </incdepgraph>
     <briefdescription>

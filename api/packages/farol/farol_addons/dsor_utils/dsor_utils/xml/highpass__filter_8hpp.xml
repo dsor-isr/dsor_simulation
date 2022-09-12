@@ -11,12 +11,6 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>cmath</label>
-      </node>
-      <node id="3">
-        <label>stdexcept</label>
-      </node>
       <node id="5">
         <label>dsor_utils/data_structures/circular_buffer.hpp</label>
         <link refid="circular__buffer_8hpp_source"/>
@@ -25,8 +19,11 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>cstdlib</label>
+      <node id="4">
+        <label>cmath</label>
+      </node>
+      <node id="3">
+        <label>stdexcept</label>
       </node>
       <node id="2">
         <label>digital_filter.hpp</label>
@@ -37,6 +34,9 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+      </node>
+      <node id="6">
+        <label>cstdlib</label>
       </node>
     </incdepgraph>
     <innerclass refid="classHighPassFilter" prot="public">HighPassFilter</innerclass>

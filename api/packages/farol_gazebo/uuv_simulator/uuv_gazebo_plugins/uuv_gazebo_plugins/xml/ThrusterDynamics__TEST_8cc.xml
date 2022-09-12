@@ -15,12 +15,6 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>string</label>
-      </node>
-      <node id="4">
-        <label>map</label>
-      </node>
       <node id="1">
         <label>test/ThrusterDynamics_TEST.cc</label>
         <link refid="ThrusterDynamics__TEST_8cc"/>
@@ -28,6 +22,12 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>map</label>
       </node>
       <node id="6">
         <label>sdf/sdf.hh</label>

@@ -7,6 +7,9 @@
     <includes local="no">gazebo/physics/Model.hh</includes>
     <includes local="no">gazebo/common/Plugin.hh</includes>
     <incdepgraph>
+      <node id="6">
+        <label>gazebo/common/Plugin.hh</label>
+      </node>
       <node id="1">
         <label>src/LinearBatteryROSPlugin.cc</label>
         <link refid="LinearBatteryROSPlugin_8cc"/>
@@ -18,9 +21,6 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>gazebo/common/Plugin.hh</label>
       </node>
       <node id="4">
         <label>gazebo/plugins/LinearBatteryPlugin.hh</label>

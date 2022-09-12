@@ -14,6 +14,15 @@
       <node id="4">
         <label>gazebo/common/Plugin.hh</label>
       </node>
+      <node id="10">
+        <label>opencv2/opencv.hpp</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>gazebo/gazebo.hh</label>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/UnderwaterCameraROSPlugin.hh</label>
         <link refid="UnderwaterCameraROSPlugin_8hh"/>
@@ -32,17 +41,14 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="10">
-        <label>opencv2/opencv.hpp</label>
-      </node>
-      <node id="8">
-        <label>string</label>
-      </node>
-      <node id="2">
-        <label>gazebo/gazebo.hh</label>
-      </node>
       <node id="9">
         <label>Eigen/Dense</label>
+      </node>
+      <node id="3">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="5">
+        <label>gazebo/plugins/DepthCameraPlugin.hh</label>
       </node>
       <node id="7">
         <label>uuv_sensor_ros_plugins/Common.hh</label>
@@ -53,12 +59,6 @@
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="5">
-        <label>gazebo/plugins/DepthCameraPlugin.hh</label>
       </node>
       <node id="6">
         <label>gazebo_plugins/gazebo_ros_camera_utils.h</label>

@@ -18,6 +18,40 @@
     <includes local="no">math.h</includes>
     <includes refid="ThrusterManagerROSPlugin_8hh" local="no">uuv_gazebo_ros_plugins/ThrusterManagerROSPlugin.hh</includes>
     <incdepgraph>
+      <node id="2">
+        <label>boost/algorithm/string.hpp</label>
+      </node>
+      <node id="4">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="5">
+        <label>limits</label>
+      </node>
+      <node id="16">
+        <label>uuv_gazebo_ros_plugins/ThrusterManagerROSPlugin.hh</label>
+        <link refid="ThrusterManagerROSPlugin_8hh_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
+      </node>
       <node id="1">
         <label>src/ThrusterManagerROSPlugin.cc</label>
         <link refid="ThrusterManagerROSPlugin_8cc"/>
@@ -52,18 +86,6 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>boost/algorithm/string.hpp</label>
-      </node>
-      <node id="4">
-        <label>boost/shared_ptr.hpp</label>
-      </node>
-      <node id="5">
-        <label>limits</label>
-      </node>
-      <node id="22">
-        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
-      </node>
       <node id="14">
         <label>dsor_msgs/Thruster.h</label>
       </node>
@@ -84,28 +106,6 @@
       </node>
       <node id="13">
         <label>sdf/sdf.hh</label>
-      </node>
-      <node id="16">
-        <label>uuv_gazebo_ros_plugins/ThrusterManagerROSPlugin.hh</label>
-        <link refid="ThrusterManagerROSPlugin_8hh_source"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
       <node id="12">
         <label>gazebo/transport/TransportTypes.hh</label>

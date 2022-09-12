@@ -86,6 +86,9 @@
       <node id="2">
         <label>thread</label>
       </node>
+      <node id="5">
+        <label>algorithm</label>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/usblPlugin.hh</label>
         <link refid="usblPlugin_8hh"/>
@@ -133,9 +136,6 @@
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>algorithm</label>
       </node>
       <node id="18">
         <label>std_msgs/Int8.h</label>

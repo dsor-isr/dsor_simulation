@@ -4,6 +4,48 @@
     <compoundname>UsblFix2Pos.cpp</compoundname>
     <includes refid="UsblFix2Pos_8h" local="yes">UsblFix2Pos.h</includes>
     <incdepgraph>
+      <node id="12">
+        <label>dsor_msgs/Measurement.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="9">
+        <label>auv_msgs/NavigationStatus.h</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>exception</label>
+      </node>
+      <node id="14">
+        <label>GeographicLib/UTMUPS.hpp</label>
+      </node>
+      <node id="10">
+        <label>farol_msgs/mUSBLFix.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="1">
+        <label>src/UsblFix2Pos.cpp</label>
+        <link refid="UsblFix2Pos_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="3">
+        <label>math.h</label>
+      </node>
+      <node id="13">
+        <label>farol_gimmicks_library/FarolGimmicks.h</label>
+      </node>
+      <node id="11">
+        <label>farol_msgs/mState.h</label>
+      </node>
       <node id="2">
         <label>UsblFix2Pos.h</label>
         <link refid="UsblFix2Pos_8h_source"/>
@@ -31,48 +73,6 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="12">
-        <label>dsor_msgs/Measurement.h</label>
-      </node>
-      <node id="1">
-        <label>src/UsblFix2Pos.cpp</label>
-        <link refid="UsblFix2Pos_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>stdlib.h</label>
-      </node>
-      <node id="9">
-        <label>auv_msgs/NavigationStatus.h</label>
-      </node>
-      <node id="5">
-        <label>string</label>
-      </node>
-      <node id="7">
-        <label>exception</label>
-      </node>
-      <node id="14">
-        <label>GeographicLib/UTMUPS.hpp</label>
-      </node>
-      <node id="10">
-        <label>farol_msgs/mUSBLFix.h</label>
-      </node>
-      <node id="6">
-        <label>vector</label>
-      </node>
-      <node id="8">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="3">
-        <label>math.h</label>
-      </node>
-      <node id="13">
-        <label>farol_gimmicks_library/FarolGimmicks.h</label>
-      </node>
-      <node id="11">
-        <label>farol_msgs/mState.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">

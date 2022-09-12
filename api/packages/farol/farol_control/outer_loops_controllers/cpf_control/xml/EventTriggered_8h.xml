@@ -8,9 +8,6 @@
     <includedby refid="CpfNode_8h" local="yes">include/ros/CpfNode.h</includedby>
     <includedby refid="EventTriggered_8cpp" local="yes">src/algorithms/EventTriggered.cpp</includedby>
     <incdepgraph>
-      <node id="3">
-        <label>Eigen/Core</label>
-      </node>
       <node id="1">
         <label>include/algorithms/EventTriggered.h</label>
         <link refid="EventTriggered_8h"/>
@@ -20,6 +17,9 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+      </node>
+      <node id="3">
+        <label>Eigen/Core</label>
       </node>
       <node id="4">
         <label>vector</label>

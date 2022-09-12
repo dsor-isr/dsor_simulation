@@ -14,6 +14,24 @@
     <includes local="no">farol_gimmicks_library/FarolGimmicks.h</includes>
     <includedby refid="PingerNode_8cpp" local="no">src/pinger_ros/PingerNode.cpp</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>queue</label>
+      </node>
+      <node id="8">
+        <label>std_msgs/Bool.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2">
+        <label>cmath</label>
+      </node>
+      <node id="10">
+        <label>farol_msgs/mUSBLFix.h</label>
+      </node>
+      <node id="6">
+        <label>std_msgs/Empty.h</label>
+      </node>
       <node id="1">
         <label>include/pinger_ros/PingerNode.h</label>
         <link refid="PingerNode_8h"/>
@@ -37,24 +55,6 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>queue</label>
-      </node>
-      <node id="8">
-        <label>std_msgs/Bool.h</label>
-      </node>
-      <node id="3">
-        <label>stdlib.h</label>
-      </node>
-      <node id="2">
-        <label>cmath</label>
-      </node>
-      <node id="10">
-        <label>farol_msgs/mUSBLFix.h</label>
-      </node>
-      <node id="6">
-        <label>std_msgs/Empty.h</label>
       </node>
       <node id="5">
         <label>ros/ros.h</label>

@@ -29,27 +29,33 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="6">
-        <label>include/uuv_sensor_ros_plugins/IMUROSPlugin.hh</label>
-        <link refid="IMUROSPlugin_8hh_source"/>
-      </node>
-      <node id="11">
-        <label>include/uuv_sensor_ros_plugins/ROSBaseSensorPlugin.hh</label>
-        <link refid="ROSBaseSensorPlugin_8hh_source"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>include/uuv_sensor_ros_plugins/UnderwaterCameraROSPlugin.hh</label>
-        <link refid="UnderwaterCameraROSPlugin_8hh_source"/>
+      <node id="8">
+        <label>include/uuv_sensor_ros_plugins/PoseGTROSPlugin.hh</label>
+        <link refid="PoseGTROSPlugin_8hh_source"/>
       </node>
       <node id="10">
         <label>include/uuv_sensor_ros_plugins/SubseaPressureROSPlugin.hh</label>
         <link refid="SubseaPressureROSPlugin_8hh_source"/>
       </node>
+      <node id="4">
+        <label>include/uuv_sensor_ros_plugins/CPCROSPlugin.hh</label>
+        <link refid="CPCROSPlugin_8hh_source"/>
+      </node>
+      <node id="12">
+        <label>include/uuv_sensor_ros_plugins/GPSROSPlugin.hh</label>
+        <link refid="GPSROSPlugin_8hh_source"/>
+      </node>
+      <node id="9">
+        <label>include/uuv_sensor_ros_plugins/RPTROSPlugin.hh</label>
+        <link refid="RPTROSPlugin_8hh_source"/>
+      </node>
       <node id="7">
         <label>include/uuv_sensor_ros_plugins/MagnetometerROSPlugin.hh</label>
         <link refid="MagnetometerROSPlugin_8hh_source"/>
+      </node>
+      <node id="13">
+        <label>include/uuv_sensor_ros_plugins/UnderwaterCameraROSPlugin.hh</label>
+        <link refid="UnderwaterCameraROSPlugin_8hh_source"/>
       </node>
       <node id="2">
         <label>include/uuv_sensor_ros_plugins/ROSBasePlugin.hh</label>
@@ -77,6 +83,20 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
+      <node id="5">
+        <label>include/uuv_sensor_ros_plugins/DVLROSPlugin.hh</label>
+        <link refid="DVLROSPlugin_8hh_source"/>
+      </node>
+      <node id="11">
+        <label>include/uuv_sensor_ros_plugins/ROSBaseSensorPlugin.hh</label>
+        <link refid="ROSBaseSensorPlugin_8hh_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>include/uuv_sensor_ros_plugins/IMUROSPlugin.hh</label>
+        <link refid="IMUROSPlugin_8hh_source"/>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/Common.hh</label>
         <link refid="Common_8hh"/>
@@ -84,26 +104,6 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="9">
-        <label>include/uuv_sensor_ros_plugins/RPTROSPlugin.hh</label>
-        <link refid="RPTROSPlugin_8hh_source"/>
-      </node>
-      <node id="8">
-        <label>include/uuv_sensor_ros_plugins/PoseGTROSPlugin.hh</label>
-        <link refid="PoseGTROSPlugin_8hh_source"/>
-      </node>
-      <node id="12">
-        <label>include/uuv_sensor_ros_plugins/GPSROSPlugin.hh</label>
-        <link refid="GPSROSPlugin_8hh_source"/>
-      </node>
-      <node id="4">
-        <label>include/uuv_sensor_ros_plugins/CPCROSPlugin.hh</label>
-        <link refid="CPCROSPlugin_8hh_source"/>
-      </node>
-      <node id="5">
-        <label>include/uuv_sensor_ros_plugins/DVLROSPlugin.hh</label>
-        <link refid="DVLROSPlugin_8hh_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classFirstOrderFilter" prot="public">FirstOrderFilter</innerclass>

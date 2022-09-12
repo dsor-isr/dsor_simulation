@@ -10,6 +10,20 @@
     <includedby refid="SimulationNode_8h" local="no">include/ros/SimulationNode.h</includedby>
     <includedby refid="AUV_8cpp" local="yes">src/algorithms/AUV.cpp</includedby>
     <incdepgraph>
+      <node id="1">
+        <label>include/algorithms/AUV.h</label>
+        <link refid="AUV_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="2">
         <label>Eigen/Core</label>
       </node>
@@ -31,31 +45,17 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
+    </incdepgraph>
+    <invincdepgraph>
       <node id="1">
         <label>include/algorithms/AUV.h</label>
         <link refid="AUV_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
       <node id="2">
         <label>include/ros/SimulationNode.h</label>
         <link refid="SimulationNode_8h_source"/>
-      </node>
-      <node id="1">
-        <label>include/algorithms/AUV.h</label>
-        <link refid="AUV_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classAUV" prot="public">AUV</innerclass>

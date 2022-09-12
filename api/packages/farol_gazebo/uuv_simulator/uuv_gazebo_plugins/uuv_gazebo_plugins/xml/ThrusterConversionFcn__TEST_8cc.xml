@@ -7,18 +7,6 @@
     <includes local="no">gtest/gtest.h</includes>
     <includes refid="ThrusterConversionFcn_8hh" local="no">uuv_gazebo_plugins/ThrusterConversionFcn.hh</includes>
     <incdepgraph>
-      <node id="5">
-        <label>uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
-        <link refid="ThrusterConversionFcn_8hh"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
       <node id="1">
         <label>test/ThrusterConversionFcn_TEST.cc</label>
         <link refid="ThrusterConversionFcn__TEST_8cc"/>
@@ -45,6 +33,18 @@
       </node>
       <node id="4">
         <label>gtest/gtest.h</label>
+      </node>
+      <node id="5">
+        <label>uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
+        <link refid="ThrusterConversionFcn_8hh"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>memory</label>

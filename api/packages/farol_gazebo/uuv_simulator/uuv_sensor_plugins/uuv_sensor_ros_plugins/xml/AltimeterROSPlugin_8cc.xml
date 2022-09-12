@@ -57,6 +57,45 @@
       <node id="19">
         <label>gazebo/plugins/RayPlugin.hh</label>
       </node>
+      <node id="27">
+        <label>gazebo/common/Exception.hh</label>
+      </node>
+      <node id="26">
+        <label>gazebo/sensors/Sensor.hh</label>
+      </node>
+      <node id="29">
+        <label>sdf/sdf.hh</label>
+      </node>
+      <node id="10">
+        <label>sensor_msgs/Range.h</label>
+      </node>
+      <node id="8">
+        <label>ros/callback_queue.h</label>
+      </node>
+      <node id="20">
+        <label>sdf/Param.hh</label>
+      </node>
+      <node id="13">
+        <label>gazebo/transport/TransportTypes.hh</label>
+      </node>
+      <node id="7">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="21">
+        <label>gazebo_plugins/gazebo_ros_utils.h</label>
+      </node>
+      <node id="4">
+        <label>boost/bind.hpp</label>
+      </node>
+      <node id="25">
+        <label>gazebo/physics/HingeJoint.hh</label>
+      </node>
+      <node id="12">
+        <label>gazebo/physics/physics.hh</label>
+      </node>
+      <node id="22">
+        <label>algorithm</label>
+      </node>
       <node id="2">
         <label>uuv_sensor_ros_plugins/AltimeterROSPlugin.hh</label>
         <link refid="AltimeterROSPlugin_8hh_source"/>
@@ -97,44 +136,14 @@
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="27">
-        <label>gazebo/common/Exception.hh</label>
+      <node id="31">
+        <label>ignition/math/Rand.hh</label>
       </node>
-      <node id="26">
-        <label>gazebo/sensors/Sensor.hh</label>
+      <node id="9">
+        <label>ros/advertise_options.h</label>
       </node>
-      <node id="29">
-        <label>sdf/sdf.hh</label>
-      </node>
-      <node id="10">
-        <label>sensor_msgs/Range.h</label>
-      </node>
-      <node id="8">
-        <label>ros/callback_queue.h</label>
-      </node>
-      <node id="20">
-        <label>sdf/Param.hh</label>
-      </node>
-      <node id="13">
-        <label>gazebo/transport/TransportTypes.hh</label>
-      </node>
-      <node id="7">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="21">
-        <label>gazebo_plugins/gazebo_ros_utils.h</label>
-      </node>
-      <node id="4">
-        <label>boost/bind.hpp</label>
-      </node>
-      <node id="25">
-        <label>gazebo/physics/HingeJoint.hh</label>
-      </node>
-      <node id="12">
-        <label>gazebo/physics/physics.hh</label>
-      </node>
-      <node id="22">
-        <label>algorithm</label>
+      <node id="24">
+        <label>gazebo/physics/World.hh</label>
       </node>
       <node id="1">
         <label>src/AltimeterROSPlugin.cc</label>
@@ -169,15 +178,6 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-      </node>
-      <node id="31">
-        <label>ignition/math/Rand.hh</label>
-      </node>
-      <node id="9">
-        <label>ros/advertise_options.h</label>
-      </node>
-      <node id="24">
-        <label>gazebo/physics/World.hh</label>
       </node>
     </incdepgraph>
     <innernamespace refid="namespacegazebo">gazebo</innernamespace>

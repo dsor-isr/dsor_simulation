@@ -10,18 +10,6 @@
     <includedby refid="ThrusterConversionFcn_8cc" local="no">src/ThrusterConversionFcn.cc</includedby>
     <includedby refid="ThrusterConversionFcn__TEST_8cc" local="no">test/ThrusterConversionFcn_TEST.cc</includedby>
     <incdepgraph>
-      <node id="1">
-        <label>include/uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
-        <link refid="ThrusterConversionFcn_8hh"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
       <node id="3">
         <label>string</label>
       </node>
@@ -34,17 +22,29 @@
       <node id="4">
         <label>vector</label>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
       <node id="1">
         <label>include/uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
         <link refid="ThrusterConversionFcn_8hh"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
+    </incdepgraph>
+    <invincdepgraph>
       <node id="2">
         <label>include/uuv_gazebo_plugins/ThrusterPlugin.hh</label>
         <link refid="ThrusterPlugin_8hh"/>
+      </node>
+      <node id="1">
+        <label>include/uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
+        <link refid="ThrusterConversionFcn_8hh"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classgazebo_1_1ConversionFunction" prot="public">gazebo::ConversionFunction</innerclass>

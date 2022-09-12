@@ -4,6 +4,12 @@
     <compoundname>ConstRabbitSpeed.cpp</compoundname>
     <includes refid="ConstRabbitSpeed_8h" local="yes">ConstRabbitSpeed.h</includes>
     <incdepgraph>
+      <node id="2">
+        <label>ConstRabbitSpeed.h</label>
+        <link refid="ConstRabbitSpeed_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>src/algorithms/speed_profiles/ConstRabbitSpeed.cpp</label>
         <link refid="ConstRabbitSpeed_8cpp"/>
@@ -13,12 +19,6 @@
       <node id="3">
         <label>Speed.h</label>
         <link refid="Speed_8h_source"/>
-      </node>
-      <node id="2">
-        <label>ConstRabbitSpeed.h</label>
-        <link refid="ConstRabbitSpeed_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
       </node>
     </incdepgraph>
     <briefdescription>

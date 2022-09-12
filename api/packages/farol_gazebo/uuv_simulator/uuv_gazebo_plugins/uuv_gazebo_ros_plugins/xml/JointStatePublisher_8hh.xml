@@ -26,6 +26,12 @@
       <node id="8">
         <label>gazebo/common/Event.hh</label>
       </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>gazebo/gazebo.hh</label>
+      </node>
       <node id="1">
         <label>include/uuv_gazebo_ros_plugins/JointStatePublisher.hh</label>
         <link refid="JointStatePublisher_8hh"/>
@@ -55,12 +61,6 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>string</label>
-      </node>
-      <node id="6">
-        <label>gazebo/gazebo.hh</label>
       </node>
       <node id="13">
         <label>sensor_msgs/JointState.h</label>

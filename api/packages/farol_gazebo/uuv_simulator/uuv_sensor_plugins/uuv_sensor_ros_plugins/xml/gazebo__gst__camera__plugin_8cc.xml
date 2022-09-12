@@ -31,6 +31,39 @@
       <node id="12">
         <label>gazebo/transport/transport.hh</label>
       </node>
+      <node id="8">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="7">
+        <label>gazebo/sensors/CameraSensor.hh</label>
+      </node>
+      <node id="20">
+        <label>Int32.pb.h</label>
+      </node>
+      <node id="1">
+        <label>src/gazebo_gst_camera_plugin.cc</label>
+        <link refid="gazebo__gst__camera__plugin_8cc"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
       <node id="3">
         <label>uuv_sensor_ros_plugins/gazebo_gst_camera_plugin.hh</label>
         <link refid="gazebo__gst__camera__plugin_8hh_source"/>
@@ -57,15 +90,6 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="8">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="7">
-        <label>gazebo/sensors/CameraSensor.hh</label>
-      </node>
-      <node id="20">
-        <label>Int32.pb.h</label>
-      </node>
       <node id="14">
         <label>gst/gst.h</label>
       </node>
@@ -83,30 +107,6 @@
       </node>
       <node id="17">
         <label>iostream</label>
-      </node>
-      <node id="1">
-        <label>src/gazebo_gst_camera_plugin.cc</label>
-        <link refid="gazebo__gst__camera__plugin_8cc"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
       </node>
       <node id="11">
         <label>gazebo/util/system.hh</label>

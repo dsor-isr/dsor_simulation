@@ -14,6 +14,43 @@
     <includes refid="UnderwaterObjectPlugin_8hh" local="no">uuv_gazebo_plugins/UnderwaterObjectPlugin.hh</includes>
     <includes refid="Def_8hh" local="no">uuv_gazebo_plugins/Def.hh</includes>
     <incdepgraph>
+      <node id="3">
+        <label>gazebo/physics/Collision.hh</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>gazebo/msgs/msgs.hh</label>
+      </node>
+      <node id="12">
+        <label>map</label>
+      </node>
+      <node id="10">
+        <label>gazebo/transport/transport.hh</label>
+      </node>
+      <node id="6">
+        <label>gazebo/physics/PhysicsEngine.hh</label>
+      </node>
+      <node id="19">
+        <label>uuv_gazebo_plugins/Def.hh</label>
+        <link refid="Def_8hh"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gazebo/gazebo.hh</label>
+      </node>
       <node id="1">
         <label>src/UnderwaterObjectPlugin.cc</label>
         <link refid="UnderwaterObjectPlugin_8cc"/>
@@ -40,9 +77,6 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>gazebo/physics/Collision.hh</label>
-      </node>
       <node id="20">
         <label>uuv_gazebo_plugins/BuoyantObject.hh</label>
         <link refid="BuoyantObject_8hh"/>
@@ -58,65 +92,6 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-      </node>
-      <node id="13">
-        <label>string</label>
-      </node>
-      <node id="14">
-        <label>gazebo/msgs/msgs.hh</label>
-      </node>
-      <node id="12">
-        <label>map</label>
-      </node>
-      <node id="10">
-        <label>gazebo/transport/transport.hh</label>
-      </node>
-      <node id="6">
-        <label>gazebo/physics/PhysicsEngine.hh</label>
-      </node>
-      <node id="2">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="11">
-        <label>uuv_gazebo_plugins/UnderwaterObjectPlugin.hh</label>
-        <link refid="UnderwaterObjectPlugin_8hh"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-      </node>
-      <node id="19">
-        <label>uuv_gazebo_plugins/Def.hh</label>
-        <link refid="Def_8hh"/>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>vector</label>
-      </node>
-      <node id="7">
-        <label>gazebo/physics/Shape.hh</label>
-      </node>
-      <node id="9">
-        <label>gazebo/transport/TransportTypes.hh</label>
       </node>
       <node id="15">
         <label>uuv_gazebo_plugins/HydrodynamicModel.hh</label>
@@ -146,6 +121,15 @@
         <childnode refid="20" relation="include">
         </childnode>
       </node>
+      <node id="18">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>gazebo/physics/Shape.hh</label>
+      </node>
+      <node id="9">
+        <label>gazebo/transport/TransportTypes.hh</label>
+      </node>
       <node id="5">
         <label>gazebo/physics/Model.hh</label>
       </node>
@@ -160,6 +144,22 @@
       </node>
       <node id="8">
         <label>gazebo/physics/World.hh</label>
+      </node>
+      <node id="11">
+        <label>uuv_gazebo_plugins/UnderwaterObjectPlugin.hh</label>
+        <link refid="UnderwaterObjectPlugin_8hh"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innernamespace refid="namespacegazebo">gazebo</innernamespace>

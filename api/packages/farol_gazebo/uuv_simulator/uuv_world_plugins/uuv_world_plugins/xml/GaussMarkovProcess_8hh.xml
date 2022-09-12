@@ -9,15 +9,6 @@
     <includedby refid="UnderwaterCurrentPlugin_8hh" local="no">include/uuv_world_plugins/UnderwaterCurrentPlugin.hh</includedby>
     <includedby refid="GaussMarkovProcess_8cc" local="no">src/GaussMarkovProcess.cc</includedby>
     <incdepgraph>
-      <node id="2">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="5">
-        <label>random</label>
-      </node>
-      <node id="4">
-        <label>ctime</label>
-      </node>
       <node id="1">
         <label>include/uuv_world_plugins/GaussMarkovProcess.hh</label>
         <link refid="GaussMarkovProcess_8hh"/>
@@ -30,24 +21,23 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
+      <node id="2">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="5">
+        <label>random</label>
+      </node>
+      <node id="4">
+        <label>ctime</label>
+      </node>
       <node id="3">
         <label>cstdlib</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2">
-        <label>include/uuv_world_plugins/UnderwaterCurrentPlugin.hh</label>
-        <link refid="UnderwaterCurrentPlugin_8hh"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
       <node id="4">
         <label>src/GaussMarkovProcess.cc</label>
         <link refid="GaussMarkovProcess_8cc"/>
-      </node>
-      <node id="3">
-        <label>src/UnderwaterCurrentPlugin.cc</label>
-        <link refid="UnderwaterCurrentPlugin_8cc"/>
       </node>
       <node id="1">
         <label>include/uuv_world_plugins/GaussMarkovProcess.hh</label>
@@ -56,6 +46,16 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>include/uuv_world_plugins/UnderwaterCurrentPlugin.hh</label>
+        <link refid="UnderwaterCurrentPlugin_8hh"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/UnderwaterCurrentPlugin.cc</label>
+        <link refid="UnderwaterCurrentPlugin_8cc"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgazebo_1_1GaussMarkovProcess" prot="public">gazebo::GaussMarkovProcess</innerclass>

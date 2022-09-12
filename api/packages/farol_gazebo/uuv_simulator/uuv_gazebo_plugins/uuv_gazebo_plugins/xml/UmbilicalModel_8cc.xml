@@ -4,6 +4,12 @@
     <compoundname>UmbilicalModel.cc</compoundname>
     <includes refid="UmbilicalModel_8hh" local="no">uuv_gazebo_plugins/UmbilicalModel.hh</includes>
     <incdepgraph>
+      <node id="1">
+        <label>src/UmbilicalModel.cc</label>
+        <link refid="UmbilicalModel_8cc"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
       <node id="3">
         <label>string</label>
       </node>
@@ -15,12 +21,6 @@
       </node>
       <node id="6">
         <label>gazebo/common/UpdateInfo.hh</label>
-      </node>
-      <node id="1">
-        <label>src/UmbilicalModel.cc</label>
-        <link refid="UmbilicalModel_8cc"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
       <node id="9">
         <label>sdf/sdf.hh</label>

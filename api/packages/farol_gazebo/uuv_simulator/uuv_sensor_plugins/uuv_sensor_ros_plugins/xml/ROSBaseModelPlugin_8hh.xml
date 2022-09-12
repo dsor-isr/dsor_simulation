@@ -56,6 +56,18 @@
       <node id="3">
         <label>gazebo/gazebo.hh</label>
       </node>
+      <node id="20">
+        <label>random</label>
+      </node>
+      <node id="9">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="13">
+        <label>geometry_msgs/TransformStamped.h</label>
+      </node>
+      <node id="24">
+        <label>tf/transform_datatypes.h</label>
+      </node>
       <node id="5">
         <label>uuv_sensor_ros_plugins/ROSBasePlugin.hh</label>
         <link refid="ROSBasePlugin_8hh_source"/>
@@ -92,6 +104,9 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
+      <node id="14">
+        <label>gazebo/sensors/Noise.hh</label>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh</label>
         <link refid="ROSBaseModelPlugin_8hh"/>
@@ -120,31 +135,6 @@
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="20">
-        <label>random</label>
-      </node>
-      <node id="9">
-        <label>Eigen/Dense</label>
-      </node>
-      <node id="13">
-        <label>geometry_msgs/TransformStamped.h</label>
-      </node>
-      <node id="7">
-        <label>uuv_sensor_ros_plugins/Common.hh</label>
-        <link refid="Common_8hh_source"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>tf/transform_datatypes.h</label>
-      </node>
-      <node id="14">
-        <label>gazebo/sensors/Noise.hh</label>
-      </node>
       <node id="12">
         <label>uuv_sensor_ros_plugins_msgs/ChangeSensorState.h</label>
       </node>
@@ -163,18 +153,36 @@
       <node id="17">
         <label>tf/tfMessage.h</label>
       </node>
+      <node id="7">
+        <label>uuv_sensor_ros_plugins/Common.hh</label>
+        <link refid="Common_8hh_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="23">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4">
-        <label>include/uuv_sensor_ros_plugins/IMUROSPlugin.hh</label>
-        <link refid="IMUROSPlugin_8hh_source"/>
+      <node id="6">
+        <label>include/uuv_sensor_ros_plugins/PoseGTROSPlugin.hh</label>
+        <link refid="PoseGTROSPlugin_8hh_source"/>
       </node>
       <node id="8">
         <label>include/uuv_sensor_ros_plugins/SubseaPressureROSPlugin.hh</label>
         <link refid="SubseaPressureROSPlugin_8hh_source"/>
+      </node>
+      <node id="2">
+        <label>include/uuv_sensor_ros_plugins/CPCROSPlugin.hh</label>
+        <link refid="CPCROSPlugin_8hh_source"/>
+      </node>
+      <node id="7">
+        <label>include/uuv_sensor_ros_plugins/RPTROSPlugin.hh</label>
+        <link refid="RPTROSPlugin_8hh_source"/>
       </node>
       <node id="5">
         <label>include/uuv_sensor_ros_plugins/MagnetometerROSPlugin.hh</label>
@@ -198,21 +206,13 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>include/uuv_sensor_ros_plugins/RPTROSPlugin.hh</label>
-        <link refid="RPTROSPlugin_8hh_source"/>
-      </node>
-      <node id="6">
-        <label>include/uuv_sensor_ros_plugins/PoseGTROSPlugin.hh</label>
-        <link refid="PoseGTROSPlugin_8hh_source"/>
-      </node>
-      <node id="2">
-        <label>include/uuv_sensor_ros_plugins/CPCROSPlugin.hh</label>
-        <link refid="CPCROSPlugin_8hh_source"/>
-      </node>
       <node id="3">
         <label>include/uuv_sensor_ros_plugins/DVLROSPlugin.hh</label>
         <link refid="DVLROSPlugin_8hh_source"/>
+      </node>
+      <node id="4">
+        <label>include/uuv_sensor_ros_plugins/IMUROSPlugin.hh</label>
+        <link refid="IMUROSPlugin_8hh_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgazebo_1_1ROSBaseModelPlugin" prot="public">gazebo::ROSBaseModelPlugin</innerclass>

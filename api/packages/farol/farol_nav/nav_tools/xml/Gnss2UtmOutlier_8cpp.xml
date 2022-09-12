@@ -4,29 +4,17 @@
     <compoundname>Gnss2UtmOutlier.cpp</compoundname>
     <includes refid="Gnss2UtmOutlier_8h" local="yes">Gnss2UtmOutlier.h</includes>
     <incdepgraph>
+      <node id="1">
+        <label>src/Gnss2UtmOutlier.cpp</label>
+        <link refid="Gnss2UtmOutlier_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
       <node id="10">
         <label>dsor_msgs/Measurement.h</label>
       </node>
       <node id="4">
         <label>stdlib.h</label>
-      </node>
-      <node id="11">
-        <label>nav_msgs/Odometry.h</label>
-      </node>
-      <node id="5">
-        <label>string</label>
-      </node>
-      <node id="17">
-        <label>tf2_ros/message_filter.h</label>
-      </node>
-      <node id="18">
-        <label>tf2_geometry_msgs/tf2_geometry_msgs.h</label>
-      </node>
-      <node id="7">
-        <label>exception</label>
-      </node>
-      <node id="19">
-        <label>GeographicLib/UTMUPS.hpp</label>
       </node>
       <node id="2">
         <label>Gnss2UtmOutlier.h</label>
@@ -66,17 +54,29 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
+      <node id="11">
+        <label>nav_msgs/Odometry.h</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="17">
+        <label>tf2_ros/message_filter.h</label>
+      </node>
+      <node id="18">
+        <label>tf2_geometry_msgs/tf2_geometry_msgs.h</label>
+      </node>
+      <node id="7">
+        <label>exception</label>
+      </node>
+      <node id="19">
+        <label>GeographicLib/UTMUPS.hpp</label>
+      </node>
       <node id="13">
         <label>std_srvs/SetBool.h</label>
       </node>
       <node id="6">
         <label>vector</label>
-      </node>
-      <node id="1">
-        <label>src/Gnss2UtmOutlier.cpp</label>
-        <link refid="Gnss2UtmOutlier_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
       <node id="9">
         <label>sensor_msgs/NavSatFix.h</label>

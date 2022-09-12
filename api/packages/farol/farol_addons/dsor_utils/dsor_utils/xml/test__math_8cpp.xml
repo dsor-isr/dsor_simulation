@@ -12,12 +12,6 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>Eigen/Dense</label>
-      </node>
-      <node id="5">
-        <label>gtest/gtest.h</label>
-      </node>
       <node id="1">
         <label>test/test_math.cpp</label>
         <link refid="test__math_8cpp"/>
@@ -27,6 +21,12 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="5">
+        <label>gtest/gtest.h</label>
       </node>
       <node id="3">
         <label>algorithm</label>

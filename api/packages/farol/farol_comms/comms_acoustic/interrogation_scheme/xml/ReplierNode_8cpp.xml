@@ -16,6 +16,12 @@
       <node id="6">
         <label>map</label>
       </node>
+      <node id="1">
+        <label>src/replier_ros/ReplierNode.cpp</label>
+        <link refid="ReplierNode_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
       <node id="11">
         <label>farol_msgs/mUSBLFix.h</label>
       </node>
@@ -27,12 +33,6 @@
       </node>
       <node id="7">
         <label>ros/ros.h</label>
-      </node>
-      <node id="9">
-        <label>std_msgs/String.h</label>
-      </node>
-      <node id="12">
-        <label>farol_gimmicks_library/FarolGimmicks.h</label>
       </node>
       <node id="2">
         <label>ReplierNode.h</label>
@@ -60,14 +60,14 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
+      <node id="9">
+        <label>std_msgs/String.h</label>
+      </node>
+      <node id="12">
+        <label>farol_gimmicks_library/FarolGimmicks.h</label>
+      </node>
       <node id="10">
         <label>dmac/DMACPayload.h</label>
-      </node>
-      <node id="1">
-        <label>src/replier_ros/ReplierNode.cpp</label>
-        <link refid="ReplierNode_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
     </incdepgraph>
       <sectiondef kind="func">

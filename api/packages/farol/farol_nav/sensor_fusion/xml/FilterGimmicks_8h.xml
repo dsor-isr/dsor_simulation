@@ -66,18 +66,6 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4">
-        <label>include/algorithms/RotationalFilter.h</label>
-        <link refid="RotationalFilter_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="5">
-        <label>include/algorithms/VerticalFilter.h</label>
-        <link refid="VerticalFilter_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
       <node id="2">
         <label>include/algorithms/HorizontalFilter.h</label>
         <link refid="HorizontalFilter_8h_source"/>
@@ -94,9 +82,21 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
+      <node id="4">
+        <label>include/algorithms/RotationalFilter.h</label>
+        <link refid="RotationalFilter_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
       <node id="3">
         <label>include/ros/FiltersNode.h</label>
         <link refid="FiltersNode_8h"/>
+      </node>
+      <node id="5">
+        <label>include/algorithms/VerticalFilter.h</label>
+        <link refid="VerticalFilter_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structFilterGimmicks_1_1measurement" prot="public">FilterGimmicks::measurement</innerclass>

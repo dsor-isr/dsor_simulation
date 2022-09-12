@@ -4,6 +4,21 @@
     <compoundname>Romulo.cpp</compoundname>
     <includes refid="Romulo_8h" local="yes">Romulo.h</includes>
     <incdepgraph>
+      <node id="1">
+        <label>src/algorithms/Romulo.cpp</label>
+        <link refid="Romulo_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>limits</label>
+      </node>
+      <node id="11">
+        <label>farol_msgs/mPFollowingDebug.h</label>
+      </node>
+      <node id="4">
+        <label>Eigen/Core</label>
+      </node>
       <node id="6">
         <label>States.h</label>
         <link refid="States_8h_source"/>
@@ -12,32 +27,11 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="7">
-        <label>limits</label>
-      </node>
-      <node id="1">
-        <label>src/algorithms/Romulo.cpp</label>
-        <link refid="Romulo_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>farol_msgs/mPFollowingDebug.h</label>
-      </node>
-      <node id="4">
-        <label>Eigen/Core</label>
-      </node>
       <node id="10">
         <label>std_msgs/Float64.h</label>
       </node>
       <node id="9">
         <label>dsor_paths/SetMode.h</label>
-      </node>
-      <node id="2">
-        <label>Romulo.h</label>
-        <link refid="Romulo_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
       </node>
       <node id="5">
         <label>vector</label>
@@ -67,6 +61,12 @@
       </node>
       <node id="12">
         <label>farol_gimmicks_library/FarolGimmicks.h</label>
+      </node>
+      <node id="2">
+        <label>Romulo.h</label>
+        <link refid="Romulo_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <briefdescription>

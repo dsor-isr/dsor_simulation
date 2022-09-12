@@ -18,6 +18,9 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
       <node id="2">
         <label>PathSection.h</label>
         <link refid="PathSection_8h_source"/>
@@ -27,9 +30,6 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>math.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>

@@ -23,6 +23,24 @@
       <node id="9">
         <label>uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h</label>
       </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>map</label>
+      </node>
+      <node id="3">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="12">
+        <label>geometry_msgs/Vector3.h</label>
+      </node>
+      <node id="11">
+        <label>uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h</label>
+      </node>
+      <node id="8">
+        <label>uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h</label>
+      </node>
       <node id="1">
         <label>include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh</label>
         <link refid="SphericalCoordinatesROSInterfacePlugin_8hh"/>
@@ -53,24 +71,6 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="14">
-        <label>string</label>
-      </node>
-      <node id="13">
-        <label>map</label>
-      </node>
-      <node id="3">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="12">
-        <label>geometry_msgs/Vector3.h</label>
-      </node>
-      <node id="11">
-        <label>uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h</label>
-      </node>
-      <node id="8">
-        <label>uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h</label>
-      </node>
       <node id="10">
         <label>uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h</label>
       </node>
@@ -88,15 +88,15 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2">
-        <label>src/SphericalCoordinatesROSInterfacePlugin.cc</label>
-        <link refid="SphericalCoordinatesROSInterfacePlugin_8cc"/>
-      </node>
       <node id="1">
         <label>include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh</label>
         <link refid="SphericalCoordinatesROSInterfacePlugin_8hh"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>src/SphericalCoordinatesROSInterfacePlugin.cc</label>
+        <link refid="SphericalCoordinatesROSInterfacePlugin_8cc"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgazebo_1_1SphericalCoordinatesROSInterfacePlugin" prot="public">gazebo::SphericalCoordinatesROSInterfacePlugin</innerclass>

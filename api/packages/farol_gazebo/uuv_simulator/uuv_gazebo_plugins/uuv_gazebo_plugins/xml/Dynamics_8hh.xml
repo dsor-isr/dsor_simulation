@@ -39,13 +39,13 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>include/uuv_gazebo_plugins/FinPlugin.hh</label>
-        <link refid="FinPlugin_8hh"/>
-      </node>
       <node id="3">
         <label>include/uuv_gazebo_plugins/ThrusterPlugin.hh</label>
         <link refid="ThrusterPlugin_8hh"/>
+      </node>
+      <node id="2">
+        <label>include/uuv_gazebo_plugins/FinPlugin.hh</label>
+        <link refid="FinPlugin_8hh"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classgazebo_1_1Dynamics" prot="public">gazebo::Dynamics</innerclass>
