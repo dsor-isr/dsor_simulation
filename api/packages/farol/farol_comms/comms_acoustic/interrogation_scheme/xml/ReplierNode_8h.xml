@@ -39,6 +39,12 @@
       <node id="6">
         <label>ros/ros.h</label>
       </node>
+      <node id="8">
+        <label>std_msgs/String.h</label>
+      </node>
+      <node id="11">
+        <label>farol_gimmicks_library/FarolGimmicks.h</label>
+      </node>
       <node id="1">
         <label>include/replier_ros/ReplierNode.h</label>
         <link refid="ReplierNode_8h"/>
@@ -64,12 +70,6 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>std_msgs/String.h</label>
-      </node>
-      <node id="11">
-        <label>farol_gimmicks_library/FarolGimmicks.h</label>
       </node>
       <node id="9">
         <label>dmac/DMACPayload.h</label>

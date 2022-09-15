@@ -24,6 +24,10 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
+      <node id="3">
+        <label>include/ros/CpfNode.h</label>
+        <link refid="CpfNode_8h_source"/>
+      </node>
       <node id="1">
         <label>include/algorithms/CPFControl.h</label>
         <link refid="CPFControl_8h"/>
@@ -31,10 +35,6 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>include/ros/CpfNode.h</label>
-        <link refid="CpfNode_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classCPFControl" prot="public">CPFControl</innerclass>

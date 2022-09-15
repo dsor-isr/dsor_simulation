@@ -5,6 +5,18 @@
     <includes refid="digital__filter_8hpp" local="yes">digital_filter.hpp</includes>
     <includedby refid="spherical__coordinates_8cpp" local="yes">src/spherical_coordinates.cpp</includedby>
     <incdepgraph>
+      <node id="4">
+        <label>cmath</label>
+      </node>
+      <node id="3">
+        <label>stdexcept</label>
+      </node>
+      <node id="1">
+        <label>include/dsor_utils/filters/differentiator.hpp</label>
+        <link refid="differentiator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
       <node id="5">
         <label>dsor_utils/data_structures/circular_buffer.hpp</label>
         <link refid="circular__buffer_8hpp_source"/>
@@ -13,11 +25,8 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>cmath</label>
-      </node>
-      <node id="3">
-        <label>stdexcept</label>
+      <node id="6">
+        <label>cstdlib</label>
       </node>
       <node id="2">
         <label>digital_filter.hpp</label>
@@ -27,15 +36,6 @@
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>cstdlib</label>
-      </node>
-      <node id="1">
-        <label>include/dsor_utils/filters/differentiator.hpp</label>
-        <link refid="differentiator_8hpp"/>
-        <childnode refid="2" relation="include">
         </childnode>
       </node>
     </incdepgraph>

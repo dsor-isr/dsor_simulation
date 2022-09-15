@@ -19,6 +19,12 @@
       <node id="8">
         <label>tf/transform_broadcaster.h</label>
       </node>
+      <node id="3">
+        <label>nav_msgs/Odometry.h</label>
+      </node>
+      <node id="7">
+        <label>sensor_msgs/Imu.h</label>
+      </node>
       <node id="1">
         <label>src/message_to_tf.cc</label>
         <link refid="message__to__tf_8cc"/>
@@ -42,12 +48,6 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>nav_msgs/Odometry.h</label>
-      </node>
-      <node id="7">
-        <label>sensor_msgs/Imu.h</label>
       </node>
       <node id="6">
         <label>geometry_msgs/TransformStamped.h</label>

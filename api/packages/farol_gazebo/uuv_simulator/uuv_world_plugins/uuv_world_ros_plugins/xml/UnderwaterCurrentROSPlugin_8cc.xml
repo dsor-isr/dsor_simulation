@@ -54,14 +54,14 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="9">
-        <label>ros/ros.h</label>
-      </node>
       <node id="1">
         <label>src/UnderwaterCurrentROSPlugin.cc</label>
         <link refid="UnderwaterCurrentROSPlugin_8cc"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="9">
+        <label>ros/ros.h</label>
       </node>
       <node id="6">
         <label>boost/scoped_ptr.hpp</label>

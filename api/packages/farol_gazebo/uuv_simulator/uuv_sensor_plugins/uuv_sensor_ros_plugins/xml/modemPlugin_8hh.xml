@@ -61,6 +61,9 @@
       <node id="5">
         <label>gazebo/physics/physics.hh</label>
       </node>
+      <node id="2">
+        <label>thread</label>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/modemPlugin.hh</label>
         <link refid="modemPlugin_8hh"/>
@@ -94,9 +97,6 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>thread</label>
       </node>
     </incdepgraph>
     <innerclass refid="classgazebo_1_1modemPlugin" prot="public">gazebo::modemPlugin</innerclass>

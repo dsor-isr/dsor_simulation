@@ -28,6 +28,15 @@
       <node id="20">
         <label>boost/thread/mutex.hpp</label>
       </node>
+      <node id="5">
+        <label>sensor_msgs/PointCloud2.h</label>
+      </node>
+      <node id="14">
+        <label>gazebo/msgs/MessageTypes.hh</label>
+      </node>
+      <node id="15">
+        <label>gazebo/common/Time.hh</label>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/gazebo_ros_image_sonar.hh</label>
         <link refid="gazebo__ros__image__sonar_8hh"/>
@@ -73,15 +82,6 @@
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>sensor_msgs/PointCloud2.h</label>
-      </node>
-      <node id="14">
-        <label>gazebo/msgs/MessageTypes.hh</label>
-      </node>
-      <node id="15">
-        <label>gazebo/common/Time.hh</label>
       </node>
       <node id="7">
         <label>sensor_msgs/CameraInfo.h</label>

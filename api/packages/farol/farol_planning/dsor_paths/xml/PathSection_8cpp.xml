@@ -16,6 +16,19 @@
       <node id="3">
         <label>Eigen/Core</label>
       </node>
+      <node id="2">
+        <label>PathSection.h</label>
+        <link refid="PathSection_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
       <node id="1">
         <label>src/algorithms/path_sections/PathSection.cpp</label>
         <link refid="PathSection_8cpp"/>
@@ -26,19 +39,6 @@
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>math.h</label>
-      </node>
-      <node id="2">
-        <label>PathSection.h</label>
-        <link refid="PathSection_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
         </childnode>
       </node>
     </incdepgraph>

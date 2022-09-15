@@ -13,6 +13,24 @@
     <includes local="no">sdf/sdf.hh</includes>
     <includedby refid="ThrusterManagerROSPlugin_8cc" local="no">src/ThrusterManagerROSPlugin.cc</includedby>
     <incdepgraph>
+      <node id="8">
+        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
+      </node>
+      <node id="9">
+        <label>dsor_msgs/Thruster.h</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>map</label>
+      </node>
+      <node id="7">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="10">
+        <label>sdf/sdf.hh</label>
+      </node>
       <node id="1">
         <label>include/uuv_gazebo_ros_plugins/ThrusterManagerROSPlugin.hh</label>
         <link refid="ThrusterManagerROSPlugin_8hh"/>
@@ -34,24 +52,6 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
-      </node>
-      <node id="9">
-        <label>dsor_msgs/Thruster.h</label>
-      </node>
-      <node id="4">
-        <label>string</label>
-      </node>
-      <node id="3">
-        <label>map</label>
-      </node>
-      <node id="7">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="10">
-        <label>sdf/sdf.hh</label>
       </node>
       <node id="6">
         <label>ros/ros.h</label>

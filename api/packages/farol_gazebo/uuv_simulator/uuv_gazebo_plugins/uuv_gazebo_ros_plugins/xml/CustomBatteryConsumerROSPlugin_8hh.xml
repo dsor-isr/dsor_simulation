@@ -20,15 +20,6 @@
       <node id="2">
         <label>gazebo/gazebo.hh</label>
       </node>
-      <node id="7">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="5">
-        <label>boost/scoped_ptr.hpp</label>
-      </node>
-      <node id="3">
-        <label>gazebo/physics/Model.hh</label>
-      </node>
       <node id="1">
         <label>include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh</label>
         <link refid="CustomBatteryConsumerROSPlugin_8hh"/>
@@ -46,6 +37,15 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+      </node>
+      <node id="7">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="5">
+        <label>boost/scoped_ptr.hpp</label>
+      </node>
+      <node id="3">
+        <label>gazebo/physics/Model.hh</label>
       </node>
       <node id="4">
         <label>gazebo/physics/Link.hh</label>

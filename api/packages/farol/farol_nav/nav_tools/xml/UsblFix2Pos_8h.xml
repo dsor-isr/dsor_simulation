@@ -16,6 +16,34 @@
     <includes local="no">GeographicLib/UTMUPS.hpp</includes>
     <includedby refid="UsblFix2Pos_8cpp" local="yes">src/UsblFix2Pos.cpp</includedby>
     <incdepgraph>
+      <node id="1">
+        <label>include/UsblFix2Pos.h</label>
+        <link refid="UsblFix2Pos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
       <node id="11">
         <label>dsor_msgs/Measurement.h</label>
       </node>
@@ -51,34 +79,6 @@
       </node>
       <node id="10">
         <label>farol_msgs/mState.h</label>
-      </node>
-      <node id="1">
-        <label>include/UsblFix2Pos.h</label>
-        <link refid="UsblFix2Pos_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="classUsblFix2Pos" prot="public">UsblFix2Pos</innerclass>

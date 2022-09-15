@@ -42,6 +42,9 @@
       <node id="20">
         <label>tf/tf.h</label>
       </node>
+      <node id="3">
+        <label>gazebo/gazebo.hh</label>
+      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/MagnetometerROSPlugin.hh</label>
         <link refid="MagnetometerROSPlugin_8hh"/>
@@ -55,21 +58,6 @@
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="22">
-        <label>random</label>
-      </node>
-      <node id="12">
-        <label>Eigen/Dense</label>
-      </node>
-      <node id="15">
-        <label>geometry_msgs/TransformStamped.h</label>
-      </node>
-      <node id="26">
-        <label>tf/transform_datatypes.h</label>
       </node>
       <node id="8">
         <label>uuv_sensor_ros_plugins/ROSBasePlugin.hh</label>
@@ -107,9 +95,6 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="16">
-        <label>gazebo/sensors/Noise.hh</label>
-      </node>
       <node id="5">
         <label>uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh</label>
         <link refid="ROSBaseModelPlugin_8hh_source"/>
@@ -138,6 +123,31 @@
         <childnode refid="28" relation="include">
         </childnode>
       </node>
+      <node id="22">
+        <label>random</label>
+      </node>
+      <node id="12">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="15">
+        <label>geometry_msgs/TransformStamped.h</label>
+      </node>
+      <node id="10">
+        <label>uuv_sensor_ros_plugins/Common.hh</label>
+        <link refid="Common_8hh_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>tf/transform_datatypes.h</label>
+      </node>
+      <node id="16">
+        <label>gazebo/sensors/Noise.hh</label>
+      </node>
       <node id="14">
         <label>uuv_sensor_ros_plugins_msgs/ChangeSensorState.h</label>
       </node>
@@ -155,16 +165,6 @@
       </node>
       <node id="19">
         <label>tf/tfMessage.h</label>
-      </node>
-      <node id="10">
-        <label>uuv_sensor_ros_plugins/Common.hh</label>
-        <link refid="Common_8hh_source"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
       </node>
       <node id="25">
         <label>memory</label>

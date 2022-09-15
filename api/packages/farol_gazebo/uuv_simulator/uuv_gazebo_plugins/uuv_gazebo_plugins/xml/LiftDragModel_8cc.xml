@@ -5,18 +5,6 @@
     <includes local="no">gazebo/gazebo.hh</includes>
     <includes refid="LiftDragModel_8hh" local="no">uuv_gazebo_plugins/LiftDragModel.hh</includes>
     <incdepgraph>
-      <node id="3">
-        <label>uuv_gazebo_plugins/LiftDragModel.hh</label>
-        <link refid="LiftDragModel_8hh"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-      </node>
       <node id="5">
         <label>string</label>
       </node>
@@ -35,6 +23,18 @@
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>uuv_gazebo_plugins/LiftDragModel.hh</label>
+        <link refid="LiftDragModel_8hh"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
     </incdepgraph>

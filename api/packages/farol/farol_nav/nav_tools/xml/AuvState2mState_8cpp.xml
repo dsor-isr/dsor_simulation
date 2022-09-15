@@ -4,8 +4,20 @@
     <compoundname>AuvState2mState.cpp</compoundname>
     <includes refid="AuvState2mState_8h" local="yes">AuvState2mState.h</includes>
     <incdepgraph>
+      <node id="1">
+        <label>src/AuvState2mState.cpp</label>
+        <link refid="AuvState2mState_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
       <node id="4">
         <label>stdlib.h</label>
+      </node>
+      <node id="8">
+        <label>LowPassFilter.h</label>
+        <link refid="LowPassFilter_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
       </node>
       <node id="10">
         <label>auv_msgs/NavigationStatus.h</label>
@@ -15,51 +27,6 @@
       </node>
       <node id="17">
         <label>tf2_ros/message_filter.h</label>
-      </node>
-      <node id="8">
-        <label>LowPassFilter.h</label>
-        <link refid="LowPassFilter_8h_source"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="18">
-        <label>tf2_geometry_msgs/tf2_geometry_msgs.h</label>
-      </node>
-      <node id="7">
-        <label>exception</label>
-      </node>
-      <node id="1">
-        <label>src/AuvState2mState.cpp</label>
-        <link refid="AuvState2mState_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>vector</label>
-      </node>
-      <node id="13">
-        <label>sensor_msgs/NavSatFix.h</label>
-      </node>
-      <node id="9">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="3">
-        <label>math.h</label>
-      </node>
-      <node id="14">
-        <label>farol_gimmicks_library/FarolGimmicks.h</label>
-      </node>
-      <node id="11">
-        <label>farol_msgs/mState.h</label>
-      </node>
-      <node id="15">
-        <label>tf2_ros/transform_listener.h</label>
-      </node>
-      <node id="16">
-        <label>tf2_ros/transform_broadcaster.h</label>
-      </node>
-      <node id="12">
-        <label>farol_msgs/Pressure.h</label>
       </node>
       <node id="2">
         <label>AuvState2mState.h</label>
@@ -96,6 +63,39 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
+      </node>
+      <node id="18">
+        <label>tf2_geometry_msgs/tf2_geometry_msgs.h</label>
+      </node>
+      <node id="7">
+        <label>exception</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="13">
+        <label>sensor_msgs/NavSatFix.h</label>
+      </node>
+      <node id="9">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="3">
+        <label>math.h</label>
+      </node>
+      <node id="14">
+        <label>farol_gimmicks_library/FarolGimmicks.h</label>
+      </node>
+      <node id="11">
+        <label>farol_msgs/mState.h</label>
+      </node>
+      <node id="15">
+        <label>tf2_ros/transform_listener.h</label>
+      </node>
+      <node id="16">
+        <label>tf2_ros/transform_broadcaster.h</label>
+      </node>
+      <node id="12">
+        <label>farol_msgs/Pressure.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">

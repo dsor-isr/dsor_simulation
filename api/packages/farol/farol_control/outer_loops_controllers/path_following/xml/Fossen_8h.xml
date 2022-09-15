@@ -6,6 +6,14 @@
     <includedby refid="PathFollowingNode_8h" local="yes">include/ros/PathFollowingNode.h</includedby>
     <includedby refid="Fossen_8cpp" local="yes">src/algorithms/Fossen.cpp</includedby>
     <incdepgraph>
+      <node id="5">
+        <label>States.h</label>
+        <link refid="States_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
       <node id="6">
         <label>limits</label>
       </node>
@@ -15,12 +23,10 @@
       <node id="3">
         <label>Eigen/Core</label>
       </node>
-      <node id="5">
-        <label>States.h</label>
-        <link refid="States_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
+      <node id="1">
+        <label>include/algorithms/Fossen.h</label>
+        <link refid="Fossen_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -31,12 +37,6 @@
       </node>
       <node id="4">
         <label>vector</label>
-      </node>
-      <node id="1">
-        <label>include/algorithms/Fossen.h</label>
-        <link refid="Fossen_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
       <node id="2">
         <label>PathFollowing.h</label>
@@ -66,15 +66,15 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2">
-        <label>include/ros/PathFollowingNode.h</label>
-        <link refid="PathFollowingNode_8h_source"/>
-      </node>
       <node id="1">
         <label>include/algorithms/Fossen.h</label>
         <link refid="Fossen_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>include/ros/PathFollowingNode.h</label>
+        <link refid="PathFollowingNode_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classFossen" prot="public">Fossen</innerclass>

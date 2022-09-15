@@ -10,23 +10,11 @@
       <node id="10">
         <label>uuv_world_ros_plugins_msgs/GetOriginSphericalCoord.h</label>
       </node>
-      <node id="15">
-        <label>string</label>
-      </node>
-      <node id="14">
-        <label>map</label>
-      </node>
-      <node id="4">
-        <label>gazebo/gazebo.hh</label>
-      </node>
-      <node id="13">
-        <label>geometry_msgs/Vector3.h</label>
-      </node>
-      <node id="12">
-        <label>uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h</label>
-      </node>
-      <node id="9">
-        <label>uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h</label>
+      <node id="1">
+        <label>src/SphericalCoordinatesROSInterfacePlugin.cc</label>
+        <link refid="SphericalCoordinatesROSInterfacePlugin_8cc"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh</label>
@@ -58,6 +46,24 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
+      <node id="15">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="13">
+        <label>geometry_msgs/Vector3.h</label>
+      </node>
+      <node id="12">
+        <label>uuv_world_ros_plugins_msgs/TransformFromSphericalCoord.h</label>
+      </node>
+      <node id="9">
+        <label>uuv_world_ros_plugins_msgs/SetOriginSphericalCoord.h</label>
+      </node>
       <node id="11">
         <label>uuv_world_ros_plugins_msgs/TransformToSphericalCoord.h</label>
       </node>
@@ -66,12 +72,6 @@
       </node>
       <node id="3">
         <label>boost/scoped_ptr.hpp</label>
-      </node>
-      <node id="1">
-        <label>src/SphericalCoordinatesROSInterfacePlugin.cc</label>
-        <link refid="SphericalCoordinatesROSInterfacePlugin_8cc"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
       <node id="7">
         <label>gazebo/physics/World.hh</label>

@@ -26,30 +26,6 @@
       <node id="7">
         <label>gazebo/common/Plugin.hh</label>
       </node>
-      <node id="14">
-        <label>uuv_gazebo_ros_plugins_msgs/GetThrusterState.h</label>
-      </node>
-      <node id="9">
-        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
-      </node>
-      <node id="11">
-        <label>std_msgs/Bool.h</label>
-      </node>
-      <node id="3">
-        <label>string</label>
-      </node>
-      <node id="5">
-        <label>uuv_gazebo_plugins/ThrusterPlugin.hh</label>
-      </node>
-      <node id="2">
-        <label>map</label>
-      </node>
-      <node id="13">
-        <label>uuv_gazebo_ros_plugins_msgs/SetThrusterState.h</label>
-      </node>
-      <node id="12">
-        <label>std_msgs/Float64.h</label>
-      </node>
       <node id="1">
         <label>include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh</label>
         <link refid="ThrusterROSPlugin_8hh"/>
@@ -85,6 +61,30 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+      </node>
+      <node id="14">
+        <label>uuv_gazebo_ros_plugins_msgs/GetThrusterState.h</label>
+      </node>
+      <node id="9">
+        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
+      </node>
+      <node id="11">
+        <label>std_msgs/Bool.h</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>uuv_gazebo_plugins/ThrusterPlugin.hh</label>
+      </node>
+      <node id="2">
+        <label>map</label>
+      </node>
+      <node id="13">
+        <label>uuv_gazebo_ros_plugins_msgs/SetThrusterState.h</label>
+      </node>
+      <node id="12">
+        <label>std_msgs/Float64.h</label>
       </node>
       <node id="4">
         <label>vector</label>

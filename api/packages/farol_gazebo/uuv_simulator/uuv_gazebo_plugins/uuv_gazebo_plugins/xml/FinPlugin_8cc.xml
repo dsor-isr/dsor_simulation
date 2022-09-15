@@ -9,34 +9,6 @@
     <includes local="no">gazebo/physics/Model.hh</includes>
     <includes local="no">gazebo/physics/World.hh</includes>
     <incdepgraph>
-      <node id="7">
-        <label>uuv_gazebo_plugins/Dynamics.hh</label>
-        <link refid="Dynamics_8hh"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>uuv_gazebo_plugins/LiftDragModel.hh</label>
-        <link refid="LiftDragModel_8hh"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>string</label>
-      </node>
-      <node id="6">
-        <label>gazebo/msgs/msgs.hh</label>
-      </node>
       <node id="1">
         <label>src/FinPlugin.cc</label>
         <link refid="FinPlugin_8cc"/>
@@ -53,8 +25,27 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
+      <node id="7">
+        <label>uuv_gazebo_plugins/Dynamics.hh</label>
+        <link refid="Dynamics_8hh"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>gazebo/msgs/msgs.hh</label>
+      </node>
       <node id="8">
         <label>map</label>
+      </node>
+      <node id="4">
+        <label>gazebo/gazebo.hh</label>
       </node>
       <node id="12">
         <label>uuv_gazebo_plugins/Def.hh</label>
@@ -72,9 +63,6 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="4">
-        <label>gazebo/gazebo.hh</label>
-      </node>
       <node id="5">
         <label>sdf/sdf.hh</label>
       </node>
@@ -83,15 +71,6 @@
       </node>
       <node id="11">
         <label>Double.pb.h</label>
-      </node>
-      <node id="3">
-        <label>boost/scoped_ptr.hpp</label>
-      </node>
-      <node id="17">
-        <label>gazebo/physics/Model.hh</label>
-      </node>
-      <node id="14">
-        <label>eigen3/Eigen/Core</label>
       </node>
       <node id="2">
         <label>uuv_gazebo_plugins/FinPlugin.hh</label>
@@ -111,11 +90,32 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
+      <node id="3">
+        <label>boost/scoped_ptr.hpp</label>
+      </node>
+      <node id="17">
+        <label>gazebo/physics/Model.hh</label>
+      </node>
+      <node id="14">
+        <label>eigen3/Eigen/Core</label>
+      </node>
       <node id="16">
         <label>gazebo/physics/Link.hh</label>
       </node>
       <node id="15">
         <label>eigen3/Eigen/Geometry</label>
+      </node>
+      <node id="10">
+        <label>uuv_gazebo_plugins/LiftDragModel.hh</label>
+        <link refid="LiftDragModel_8hh"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="18">
         <label>gazebo/physics/World.hh</label>

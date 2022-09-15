@@ -11,6 +11,9 @@
     <includedby refid="wp__loose_8h" local="no">include/waypoint_algorithms/wp_loose.h</includedby>
     <includedby refid="wp__standard_8h" local="no">include/waypoint_algorithms/wp_standard.h</includedby>
     <incdepgraph>
+      <node id="6">
+        <label>std_msgs/Float64.h</label>
+      </node>
       <node id="1">
         <label>include/waypoint_algorithms/wp_controller.h</label>
         <link refid="wp__controller_8h"/>
@@ -24,9 +27,6 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="6">
-        <label>std_msgs/Float64.h</label>
       </node>
       <node id="5">
         <label>ros/ros.h</label>
@@ -42,25 +42,13 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2">
-        <label>include/waypoint_algorithms/wp_heading.h</label>
-        <link refid="wp__heading_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="4">
-        <label>include/waypoint_algorithms/wp_loose.h</label>
-        <link refid="wp__loose_8h_source"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
       <node id="3">
         <label>include/waypoint_ros/waypoint.h</label>
         <link refid="waypoint_8h_source"/>
       </node>
-      <node id="5">
-        <label>include/waypoint_algorithms/wp_standard.h</label>
-        <link refid="wp__standard_8h_source"/>
+      <node id="4">
+        <label>include/waypoint_algorithms/wp_loose.h</label>
+        <link refid="wp__loose_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
@@ -72,6 +60,18 @@
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>include/waypoint_algorithms/wp_standard.h</label>
+        <link refid="wp__standard_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>include/waypoint_algorithms/wp_heading.h</label>
+        <link refid="wp__heading_8h_source"/>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

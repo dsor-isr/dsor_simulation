@@ -9,18 +9,6 @@
     <includedby refid="FinPlugin_8hh" local="no">include/uuv_gazebo_plugins/FinPlugin.hh</includedby>
     <includedby refid="LiftDragModel_8cc" local="no">src/LiftDragModel.cc</includedby>
     <incdepgraph>
-      <node id="1">
-        <label>include/uuv_gazebo_plugins/LiftDragModel.hh</label>
-        <link refid="LiftDragModel_8hh"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
       <node id="3">
         <label>string</label>
       </node>
@@ -33,17 +21,29 @@
       <node id="5">
         <label>sdf/sdf.hh</label>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
       <node id="1">
         <label>include/uuv_gazebo_plugins/LiftDragModel.hh</label>
         <link refid="LiftDragModel_8hh"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
+    </incdepgraph>
+    <invincdepgraph>
       <node id="2">
         <label>include/uuv_gazebo_plugins/FinPlugin.hh</label>
         <link refid="FinPlugin_8hh"/>
+      </node>
+      <node id="1">
+        <label>include/uuv_gazebo_plugins/LiftDragModel.hh</label>
+        <link refid="LiftDragModel_8hh"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classgazebo_1_1LiftDrag" prot="public">gazebo::LiftDrag</innerclass>

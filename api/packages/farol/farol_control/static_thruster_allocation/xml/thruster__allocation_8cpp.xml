@@ -10,11 +10,14 @@
       <node id="5">
         <label>dsor_msgs/Thruster.h</label>
       </node>
-      <node id="1">
-        <label>src/thruster_allocation.cpp</label>
-        <link refid="thruster__allocation_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="3">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="7">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="6">
+        <label>farol_gimmicks_library/FarolGimmicks.h</label>
       </node>
       <node id="2">
         <label>thruster_allocation.h</label>
@@ -30,14 +33,11 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>Eigen/Dense</label>
-      </node>
-      <node id="7">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="6">
-        <label>farol_gimmicks_library/FarolGimmicks.h</label>
+      <node id="1">
+        <label>src/thruster_allocation.cpp</label>
+        <link refid="thruster__allocation_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
       <sectiondef kind="func">

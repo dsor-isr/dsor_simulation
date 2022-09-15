@@ -5,6 +5,12 @@
     <includes refid="EventTriggered_8h" local="yes">EventTriggered.h</includes>
     <includes local="no">cmath</includes>
     <incdepgraph>
+      <node id="7">
+        <label>cmath</label>
+      </node>
+      <node id="4">
+        <label>Eigen/Core</label>
+      </node>
       <node id="2">
         <label>EventTriggered.h</label>
         <link refid="EventTriggered_8h_source"/>
@@ -14,20 +20,6 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="1">
-        <label>src/algorithms/EventTriggered.cpp</label>
-        <link refid="EventTriggered_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>cmath</label>
-      </node>
-      <node id="4">
-        <label>Eigen/Core</label>
       </node>
       <node id="5">
         <label>vector</label>
@@ -39,6 +31,14 @@
         <label>CPFControl.h</label>
         <link refid="CPFControl_8h_source"/>
         <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/algorithms/EventTriggered.cpp</label>
+        <link refid="EventTriggered_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
     </incdepgraph>

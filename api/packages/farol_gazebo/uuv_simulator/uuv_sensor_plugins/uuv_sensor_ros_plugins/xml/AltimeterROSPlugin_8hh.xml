@@ -52,27 +52,6 @@
       <node id="18">
         <label>gazebo/plugins/RayPlugin.hh</label>
       </node>
-      <node id="9">
-        <label>sensor_msgs/Range.h</label>
-      </node>
-      <node id="7">
-        <label>ros/callback_queue.h</label>
-      </node>
-      <node id="19">
-        <label>sdf/Param.hh</label>
-      </node>
-      <node id="12">
-        <label>gazebo/transport/TransportTypes.hh</label>
-      </node>
-      <node id="6">
-        <label>ros/ros.h</label>
-      </node>
-      <node id="3">
-        <label>boost/bind.hpp</label>
-      </node>
-      <node id="11">
-        <label>gazebo/physics/physics.hh</label>
-      </node>
       <node id="1">
         <label>include/uuv_sensor_ros_plugins/AltimeterROSPlugin.hh</label>
         <link refid="AltimeterROSPlugin_8hh"/>
@@ -112,6 +91,27 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+      </node>
+      <node id="9">
+        <label>sensor_msgs/Range.h</label>
+      </node>
+      <node id="7">
+        <label>ros/callback_queue.h</label>
+      </node>
+      <node id="19">
+        <label>sdf/Param.hh</label>
+      </node>
+      <node id="12">
+        <label>gazebo/transport/TransportTypes.hh</label>
+      </node>
+      <node id="6">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="3">
+        <label>boost/bind.hpp</label>
+      </node>
+      <node id="11">
+        <label>gazebo/physics/physics.hh</label>
       </node>
       <node id="8">
         <label>ros/advertise_options.h</label>

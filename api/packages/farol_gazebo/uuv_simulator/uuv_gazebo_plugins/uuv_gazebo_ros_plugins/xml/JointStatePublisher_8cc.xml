@@ -13,12 +13,6 @@
       <node id="9">
         <label>gazebo/common/Event.hh</label>
       </node>
-      <node id="3">
-        <label>string</label>
-      </node>
-      <node id="7">
-        <label>gazebo/gazebo.hh</label>
-      </node>
       <node id="2">
         <label>uuv_gazebo_ros_plugins/JointStatePublisher.hh</label>
         <link refid="JointStatePublisher_8hh"/>
@@ -49,6 +43,18 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
+      <node id="1">
+        <label>src/JointStatePublisher.cc</label>
+        <link refid="JointStatePublisher_8cc"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>gazebo/gazebo.hh</label>
+      </node>
       <node id="14">
         <label>sensor_msgs/JointState.h</label>
       </node>
@@ -57,12 +63,6 @@
       </node>
       <node id="15">
         <label>sstream</label>
-      </node>
-      <node id="1">
-        <label>src/JointStatePublisher.cc</label>
-        <link refid="JointStatePublisher_8cc"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
       <node id="13">
         <label>ros/ros.h</label>
