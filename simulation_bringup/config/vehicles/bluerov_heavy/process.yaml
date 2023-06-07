@@ -60,7 +60,7 @@ processes:
             - rosbridge_server:= false
             - remote_controller:= false
             - joystick:= gamesir
-            - joystick_mode:= bluetooth
+            - joystick_mode:= bluetooth # bluetooth or usb depending on controller
       dependencies:
             []
     
