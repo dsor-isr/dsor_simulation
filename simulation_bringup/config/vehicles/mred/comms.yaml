@@ -1,0 +1,42 @@
+modem/modem_config:
+    tcp_config/ip: 10.42.10.8 # sim
+    local_address: 8 # sim
+    hasAHRS: false
+    initializer: "{'@ZA': '1', '@ZX': '1'}"
+
+silent:
+    tslack: 1.0     # in seconds
+    # modem_name: 10.42.10.6    ?????????
+    #modems_list: ["1", "2"]
+    modems_list: ["1","3"]
+    slot_list: [5.0, 5.0]   # in seconds
+    modem_id: 1
+    anchor: 1
+    tnew_start: 30      # in seconds
+
+pinger:
+    tslack: 1.0
+    modem_name: "10.42.10.8" # sim
+    #modems_list: ["1", "2"]
+    modems_list: ["10", "9"]
+    timeout_list: [4.0, 4.0]
+
+replier:
+    tslack: 1.0
+    modem_id: 8 # sim
+    timeout_list: [4.0, 4.0]
+
+data_serializer:
+    vehicle_id: 8 # sim
+
+pos2sim_modem:
+    ip: 10.42.10.8 # sim
+
+dmac2farol:
+    # false, vehicle acts as an achor, estimates other vehicles position 
+    # true, vehicle estimates its own position with respect to an anchor   
+    fix_type: false
+    # true, real vehcile
+    # false, simulation scenarios with evo emulator
+    real: true
+    installation_matrix: [-0.7854, 0, 3.1415]

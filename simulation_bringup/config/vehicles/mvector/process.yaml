@@ -10,8 +10,8 @@ processes:
             - navigation:= false
             - controllers:= false
             - cooperative:= false
-            - comms:= false
-            - acoustic_data:= false
+            - comms:= true
+            - acoustic_data:= true
             - planning:= false
       dependencies:
             []
@@ -31,7 +31,7 @@ processes:
       delay_before_start: 1.0
       cmd: 'roslaunch farol_gazebo_bringup vehicle_model.launch'
       args:
-            - x:= 0.0
+            - x:= 200.0
             - y:= 0.0
             - z:= 0.0
             - roll:= 0.0
@@ -106,8 +106,8 @@ processes:
       cmd: 'roslaunch farol_bringup cooperative.launch'
       args:
             - cpf_control:=true
-            - cpf_wifi_receiver:=true
-            - cpf_wifi_broadcaster:=true
+            - cpf_wifi_receiver:=false
+            - cpf_wifi_broadcaster:=false
       dependencies:
             []
     
@@ -116,10 +116,11 @@ processes:
       delay_before_start: 8.0
       cmd: 'roslaunch farol_bringup comms.launch'
       args:
-            - dmac:= false
+            - dmac:= true
             - data_serializer:= true
             - pinger:= false
-            - replier:= false
+            - replier:= true
+            - silent:= false
             - pos2sim_modem:= false
             - dmac2farol:= true
             - gnss2state:= true
