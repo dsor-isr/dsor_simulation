@@ -11,6 +11,17 @@
 # https://docs.google.com/spreadsheets/d/1o_p9rl8eRqVtl4L3G4qtig7R__WBa42d7-IvHyCSmr0/edit#gid=0
 data_serializer:
   acoustic_data_channels:
+    - from: [8]
+      to: [9]
+      msg: "std_msgs/UInt32"
+      topic_in: "/mred0/acomms/scheme/tinit"
+      topic_out: "/mvector0/acomms/scheme/tinit"
+      latch: 5
+      fields:
+        - field_name: "data"
+          min: 0
+          max: 2147483647
+          bits: 31
     # - from: [1]
     #   to: [3]
     #   msg: "farol_msgs/stateAcomms"

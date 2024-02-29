@@ -118,9 +118,9 @@ processes:
       args:
             - dmac:= true
             - data_serializer:= true
-            - pinger:= true
+            - pinger:= false
             - replier:= false
-            - silent:= false
+            - silent:= true
             - pos2sim_modem:= false
             - dmac2farol:= true
             - gnss2state:= true
