@@ -8,8 +8,8 @@ silent:
     tslack: 1.0     # in seconds
     # modem_name: 10.42.10.6    ?????????
     #modems_list: ["1", "2"]
-    modems_list: ["8","9"]
-    slot_list: [5.0, 5.0]   # in seconds
+    modems_list: ["8","9","10"]
+    slot_list: [5.0, 5.0, 5.0]   # in seconds
     modem_id: 9
     anchor: 8
     tnew_start: 30      # in seconds

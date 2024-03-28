@@ -22,8 +22,19 @@ data_serializer:
           min: 0
           max: 2147483647
           bits: 31
-    # - from: [1]
-    #   to: [3]
+    - from: [8]
+      to: [10]
+      msg: "std_msgs/UInt32"
+      topic_in: "/mred0/acomms/scheme/tinit"
+      topic_out: "/glider0/acomms/scheme/tinit"
+      latch: 5
+      fields:
+        - field_name: "data"
+          min: 0
+          max: 2147483647
+          bits: 31
+    # - from: [8]
+    #   to: [9]
     #   msg: "farol_msgs/stateAcomms"
     #   topic_in: "/mred0/nav/filter/state_acomms"
     #   topic_out: "/mvector0/acomms/nav/filter/gnss"
